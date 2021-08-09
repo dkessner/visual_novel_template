@@ -18,7 +18,7 @@ your browser.
 ## Edit the visual novel
 
 Edit `js/script.js` with a text editor.  I recommend [Atom](https://atom.io/)
-(Windows, Mac, Linux) if you don't have a favorite already.
+if you don't have a favorite already.
 
 Scroll to the bottom of the file to find `monogatari.script` -- this is where
 all the action is.  You can also change the main screen template, also at the 
