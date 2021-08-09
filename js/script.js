@@ -33,7 +33,10 @@ monogatari.action ('canvas').objects ({
 
 // Credits of the people involved in the creation of this awesome game
 monogatari.configuration ('credits', {
-
+    '' : {
+        project: '<a href="https://github.com/dkessner/visual_novel_template" target="_blank">https://github.com/dkessner/visual_novel_template</a>',
+        'Monogatari visual novel engine': '<a href="https://monogatari.io/" target="_blank">https://monogatari.io</a>'
+    }
 });
 
 
@@ -102,3 +105,21 @@ monogatari.script ({
             'end'
 	]
 });
+
+
+monogatari.component ('main-screen').template (() => {
+    return `
+        <h1>Insert Your Title Here</h1>
+        <br/> 
+        <p>
+        The quick brown fox jumps over the lazy dog.
+        </p>
+        <br/> 
+        <center>
+        <img src="assets/images/Lewis-Carroll-Alice-Under-Ground-23.jpg" height="50%"/>
+        </center>
+
+        <main-menu></main-menu>
+    `;
+});
+
